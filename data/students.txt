@@ -1,0 +1,8 @@
+ MARY ,47
+ Peter ,15
+ THABO ,59
+ PETER ,23
+ SARAH ,96
+ PETER ,45
+ sarah ,15
+ Lisa ,5

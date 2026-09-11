@@ -16,6 +16,7 @@ def generate_data_file():
         for record in records:
             file.write(record + "\n")
 
+generate_data_file()
 
 def load_students():
     tidy_records = []
@@ -29,31 +30,4 @@ def load_students():
             tidy_records.append((name, score))
     return tidy_records
 
-
-def export_report(text):
-    with open("data/report.txt", "w") as file:
-        file.write(text)
-
-import datetime 
-
-def log_event(message):
-     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-     with open("data/activity.log", "a") as file:
-         file.write(f"[{timestamp}] {message}\n") 
-
-
-    
-
-
-
-
-    
-        
-        
-            
-
-        
-
-
-        
-    
+print(load_students())
