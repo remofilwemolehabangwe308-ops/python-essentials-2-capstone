@@ -39,7 +39,7 @@ import datetime
 def log_event(message):
      timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
      with open("data/activity.log", "a") as file:
-         file.write(f"[{timestamp}] {message}\n") 
+         file.write(f"[{timestamp}] {message}\n")
 
 
     
