@@ -20,7 +20,7 @@ from reporting import date_report
 students_data = []
 
 while True:
-    print(f"1.Generate student data\n2.Display all student\n3.Display passing students\n4.Show class average\n5.Show highest score\n6.Show lowest score\n7.Show pass rate\n8.Show reports\n9.Exit")
+    print(f"===== STUDENT ANALYTICS TOOLKIT =====\n1.Generate student data\n2.Display all student\n3.Display passing students\n4.Show class average\n5.Show highest score\n6.Show lowest score\n7.Show pass rate\n8.Show reports\n9.Exit")
     try:
         option = int(input("Enter option: ")) 
     except ValueError:
@@ -29,6 +29,7 @@ while True:
 
     if option == 1:
         generate_data_file()
+        print("Student data generated successfully")
     elif option == 2:
         students_data = load_students()
         for index, (name, score) in enumerate(students_data, start=1):
