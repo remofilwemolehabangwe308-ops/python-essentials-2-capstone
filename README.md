@@ -14,7 +14,12 @@ I'm developing Student Analytics Toolkit, which consumes raw student data, perfo
 8. Export results to a file
 9. Exit
 ## How to run
-python main.py
+1. Clone the repository.
+2. Open the project folder in the terminal.
+3. Install the requirements if needed:
+   pip install -r requirements.txt
+4. Run the program:
+   python main.py
 ## Project Structure
 1. models.py - Contains the Student and HonoursStudent classes and demonstrates object-oriented programming and inheritance.
 2. data_tools.py - Handles generating, loading, cleaning, exporting, and logging student data.
