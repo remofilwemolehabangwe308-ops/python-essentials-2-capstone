@@ -33,7 +33,11 @@ while True:
 
     elif option == 2:
         print("=== Class Data ===")
-        students_data = load_students()
+        try:
+            students_data = load_students()
+        except FileNotFoundError:
+            print("No student data available. Please generate student data first")
+            continue
         for index, (name, score) in enumerate(students_data, start=1):
             student_id = f"S{index}"
             students_info = Student(name, student_id, score)
