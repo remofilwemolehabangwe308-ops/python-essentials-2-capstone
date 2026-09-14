@@ -1,8 +1,10 @@
 # Student Analytics Toolkit
 ## Description
 I'm developing Student Analytics Toolkit, which consumes raw student data, performs data cleaning and conversion to Student objects, analysing the resulting objects using statistical calculations, generators and closures, and providing environment, date and export reports through a terminal menu.
+
 **Author:** Remofilwe Molehabangwe 
 **Cohort:** Data Science Practitioner, Jan 2026 - Melsoft Academy
+
 ## Features
 1. Generate sample data file
 2. Load & clean records from file
@@ -30,15 +32,15 @@ I'm developing Student Analytics Toolkit, which consumes raw student data, perfo
 This project demonstrates file handling, string cleaning, object-oriented programming, inheritance, generators, closures, exception handling and use of Python Standard Library modules.
 ## Sample output
 ===== STUDENT ANALYTICS TOOLKIT =====
-1.Generate student data
-2.Display all student
-3.Display passing students
-4.Show class average
-5.Show highest score
-6.Show lowest score
-7.Show pass rate
-8.Show reports
-9.Exit
+1. Generate student data
+2. Display all student
+3. Display passing students
+4. Show class average
+5. Show highest score
+6. Show lowest score
+7. Show pass rate
+8. Show reports
+9. Exit
 
 Highest score: Lerato | Score: 93
 Lowest score: Peter | Score: 15
